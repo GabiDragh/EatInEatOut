@@ -14,22 +14,56 @@
 </head>
 
 <body>
- 
 
-  <div class="container-fluid fade-in-container">
+    <div class="container center fade-in-container">
      <!--Title card explaining the application  -->
-      <div class="card-welcome mx-auto" style="width: 54rem;">
+      <div class="card-welcome mx-auto" style="width: 82rem;">
         <div class="card-body text-center">
-         <h3 class="card-title">Welcome to EatIn EatOut with Littles</h3>
-         <h6 class="card-subtitle mb-2 text-body-secondary">An app made with love by the mum of a 2 year old, passionate about healthy eating and eating out in family-friendly, child approapriate places.</h6>
-         <h4 class="card-text">Please select what you would like to do today</h4>
-         <a href="./EatIn.html" class="card-link">EatIn</a>
-         <a href="./EatOut.html" class="card-link">EatOut</a>
+         <h2 class="card-title p-2" id="welcomeTitle">Welcome to EatIn EatOut with Littles</h2>
+         <h5 class="card-text" id="welcomeInstructions">Please select what you would like to do today</h5>
+
+          <!-- 2 Bootstrap cards for Eat In/Eat Out options - links to the selected options page and a suggestive icon under the text-->
+          <div class="row p-4">
+            <div class="col">
+                <div class="card text">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./assets/images/family-preparing-eating-rice-zongzi.jpg" class="card-img" alt="Family cooking zongzi dinner together vector">
+                        </div>
+
+                        <div class="col-md-6" id="selectionCardText">
+                             <h3 class="card-title">Eat In</h3>
+                             <p class="card-text">Fancy prepping something? Yay, that sounds great!</p>
+                             <p class="card-text"><small>For or with your little one, we've got you! Let us know what ingredients you have at hand and we give you delicious recipe options.</small></p>
+                             <a href="./EatIn.html" class="card-link-in stretched-link">Let's cook!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card text">
+                  <div class="row">
+                      <div class="col-md-6" id="selectionCardText">
+                         <h4 class="card-title">Eat Out</h4>
+                         <p class="card-text">Not in the mood to cook or just looking for a fuss-free day out?</p>
+                         <p class="card-text"><small>We have restaurant recommendations based on the dish you crave today. Let us know what you would like and we will find the place for you.</small></p>
+                         <a href="./EatOut.html" class="card-link-out stretched-link">Let's go out!</a>
+                      </div>
+
+                     <div class="col-md-6">
+                        <img src="./assets/images/flat-design-family-eating-zongzi.jpg" class="card-img" alt="Family eating zongzi dinner together vector">
+                     </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="card-subtitle p-4">An app made with love by the mum of a 2 year old, passionate about healthy eating and eating out in family-friendly, child approapriate places. Hope you find it useful!</h6>
+          </div>
         </div>
       </div>
   
-     <!-- 2 Bootstrap cards for Eat In/Eat Out options - links to the selected options page and a suggestive icon under the text-->
-
     </div> 
  <!-- Footer? -->
 

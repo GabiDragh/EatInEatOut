@@ -1,19 +1,25 @@
 /* Keep it simple and kids friendly */
 
-/* Simple background image or something dynamic? */
+/* Simple background image*/
+body {
+    background-image: url(../images/Promo-Website-Website\ landscape\ content-girls.jpg);
+}
+
+/* Center container card */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 /* Fade in effect for landing page */
-
-body {
-    background-image: url(../images/Promo-Website-Website\ full\ width.jpeg);
-    
-}
 .fade-in-container {
-animation:fadeIn 3s;
--webkit-animation: fadeIn 3s;
--moz-animation: fadeIn 3s;
--o-animation: fadeIn 3s;
--ms-animation: fadeIn 3s;
+animation:fadeIn 4s;
+-webkit-animation: fadeIn 4s;
+-moz-animation: fadeIn 4s;
+-o-animation: fadeIn 4s;
+-ms-animation: fadeIn 4s;
 }
 
 @keyframes fadeIn {
@@ -41,18 +47,35 @@ animation:fadeIn 3s;
     100% {opacity:1;}
 }
 
-
+/* Main card background color */
 .card-welcome {
-    background-color: #81B214;
+    background-color: rgb(129,178,20,.3);
+}
+
+#welcomeTitle, #welcomeInstructions {
+    color: rgb(32,106,93);
+}
+
+.card-img {
     opacity: 90%;
 }
-h6 {
-    font-style:italic;
 
+#selectionCardText {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ color: rgb(32,106,93,.9);
 }
 
+.card-subtitle {
+    color: rgb(32,106,93,.9);
+    font-style:italic;
+}
 
-/* Title card fade in */
+a:hover, a:visited {
+    color: rgb(245,134,52)
+}
+
 
 /* Add a bit of shadowing and gradient on the cards - rounded edges, centered, aligned and same size */
 
