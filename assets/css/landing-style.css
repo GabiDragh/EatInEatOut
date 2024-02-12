@@ -2,7 +2,7 @@
 
 /* Simple background image*/
 body {
-    background-image: url(../images/Promo-Website-Website\ landscape\ content-girls.jpg);
+    background-image: url(../images/background1.jpg);
 }
 
 /* Center container card */
@@ -60,6 +60,7 @@ animation:fadeIn 4s;
     opacity: 90%;
 }
 
+/* Selection cards align text and text to match color palette */
 #selectionCardText {
  display: grid;
  justify-content: center;
@@ -72,11 +73,13 @@ animation:fadeIn 4s;
     font-style:italic;
 }
 
+/* Link color to match app palette */
 a:hover, a:visited {
     color: rgb(245,134,52)
 }
 
+/* Media responsive - look into it!! */
 
-/* Add a bit of shadowing and gradient on the cards - rounded edges, centered, aligned and same size */
-
-/* Media responsive */
+/* @media only screen and (min-width: 992px) {
+   
+} */
