@@ -1,0 +1,9 @@
+.navbar {
+    color: rgb(255,204,41);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
