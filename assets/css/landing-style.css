@@ -2,6 +2,11 @@
 
 /* Simple background image or something dynamic? */
 
+h6 {
+    font-style:italic;
+}
+
+
 /* Title card fade in */
 
 /* Add a bit of shadowing and gradient on the cards - rounded edges, centered, aligned and same size */

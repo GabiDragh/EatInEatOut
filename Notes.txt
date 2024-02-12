@@ -1,4 +1,7 @@
 Create Figma Layout - 3 pages - landing with choices, one page for recipes, one for eating out
 Color scheme - cross refference colorhunt.co healthy food palette with kids palette -> Add to Figma
-            
+             - https://colorhunt.co/palette/206a5d81b214ffcc29f58634
 
+<a href="https://www.freepik.com/free-vector/cartoon-character-chef-boy-cooking-food_13374328.htm#query=cooking&position=4&from_view=author&uuid=7c5748d5-3bb0-465e-9f9f-6280f23c77c0">Image by brgfx</a> on Freepik
+<a href="https://www.freepik.com/free-vector/set-healthy-food-salad_39653350.htm#query=eating%20healthy&position=5&from_view=author&uuid=c7922ab4-eb4c-4bd8-a67d-e438c3a48649">Image by brgfx</a> on Freepik
+Image by <a href="https://www.freepik.com/free-vector/flat-design-family-eating-zongzi_8395216.htm#from_view=detail_alsolike">Freepik</a>
