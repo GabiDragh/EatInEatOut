@@ -1,12 +1,16 @@
+function searchFood() {
 // Define variable that stores the user input value
-var searchInput = $("#foodSearchInput").val();
-console.log(searchInput);
+var search = $("#search-input").val();
+console.log(search);
+// var searchInputValue = searchInput.value;
+// console.log(searchInputValue); //this doesn't log!
+
 // Make API call:
 // Define variable to store Spoontacular API key -- not needed, using RAPID API key
 var ApiKey = "782ee6e2b6844a61ab8eb474f3479b22"; 
 
-
-var getRecipeUrl = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=" + searchInput;
+// Rapid API key
+var getRecipeUrl = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=" + search;
 var options = {
 	method: 'GET',
 	headers: {
@@ -16,7 +20,6 @@ var options = {
 };
 console.log(getRecipeUrl);
 
-function getFoodInfo() {
  fetch (getRecipeUrl, options)
 .then (function (response) {
 	return response.json();
@@ -26,18 +29,19 @@ function getFoodInfo() {
     var foodArray = recipeData.results;
 	console.log(foodArray);
 });
+
+// var recipeid = foodArray.id;
+
+
+// 1.create element
+// 2.add content
+// 3.append
+
 }
-
-// event listener for search button to trigger getRecipe function
-document.getElementById("button-addon2").addEventListener("click", getFoodInfo);
-
-// try {
-// 	const response = await fetch(getRecipeUrl, options);
-// 	const result = await response.text();
-// 	console.log(result);
-// } catch (error) {
-// 	console.error(error);
-// }
+// Call searchFood function
+searchFood();
+// Add event listener for search button to trigger getRecipe function
+document.getElementById("button-addon2").addEventListener("click", searchFood);
 
 
 //getRecipe function to include name, 
