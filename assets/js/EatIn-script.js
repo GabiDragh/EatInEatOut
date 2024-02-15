@@ -10,7 +10,7 @@ console.log(search);
 var ApiKey = "782ee6e2b6844a61ab8eb474f3479b22"; 
 
 // Rapid API key
-var getRecipeUrl = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=" + search;
+var getRecipeUrl = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=" + search + "&cuisine=" + search;
 var options = {
 	method: 'GET',
 	headers: {
@@ -44,5 +44,5 @@ searchFood();
 document.getElementById("button-addon2").addEventListener("click", searchFood);
 
 
-//getRecipe function to include name, 
+//On click recipe button -> getRecipe function - Api call by recipe id to get recipe instructions and ingredient list (each ingredient has the amount and unit parameters - can use inside a unit converter -> look it up!)
 // excludeIngredients parameter in API - can trigger when 6mo/1yo/2yo buttons are pressed to exclude certain ingredients from recipes
