@@ -7,19 +7,7 @@ function searchFood() {
 
  // Make API call:
  // Define variable to store Spoontacular API key -- not needed, using RAPID API key
- var ApiKey = "782ee6e2b6844a61ab8eb474f3479b22"; 
-
- // Rapid API key
- var getRecipeUrl = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=" + search + "&cuisine=" + search;
- var options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '182f8447bfmshf7dd1bd7040250ep1d8722jsnde7531908109',
-		'X-RapidAPI-Host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-	}
- };
- console.log(getRecipeUrl);
-
+ 
   fetch (getRecipeUrl, options)
  .then (function (response) {
 	return response.json();
