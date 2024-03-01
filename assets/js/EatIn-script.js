@@ -1,9 +1,5 @@
 function searchFood() {
- // Define variable that stores the user input value
- var search = $("#search-input").val();
- console.log(search);
- // var searchInputValue = searchInput.value;
- // console.log(searchInputValue); //this doesn't log!
+ 
 
  // Make API call:
  // Define variable to store Spoontacular API key -- not needed, using RAPID API key
