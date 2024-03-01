@@ -1,4 +1,4 @@
-# DineInDineOut
+# EatInEatOut
 Personal project to incorporate Bootcamp skills learned so far - HTML, CSS, JS, Bootstrap, Figma.
 
 App that gives parents the option to eat in or out with their children. 
